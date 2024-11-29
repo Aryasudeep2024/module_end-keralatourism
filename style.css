@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    
+    
+}
+.navbar-brand{
+    font-size: 35px;
+    font-style: oblique;
+    color:white;
+    font-weight: 600;
+ 
+
+    
+}
+.navbar-nav {
+    font-size: large;
+    font-weight: 450;
+    
+    
+}
+.figure-caption{
+    font-size: 25px;
+    font-style:oblique;
+    color:white;
+    
+}
+.my-nav{
+    position: absolute;
+    width:100%;
+    z-index:999;
+
+}
+.my-corousel{
+position: absolute;
+top: 0px;
+width: 100%;
+}
+
+/* Container must be relative for positioning */
+.position-relative {
+    position: relative;
+}
+
+/* Style for overlay text */
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Show text on hover */
+.position-relative:hover .overlay-text {
+    opacity: 1;
+}
+
+/* Image should remain unaffected */
+.img-fluid {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.my-footer{
+    text-align: center;
+
+}
+
